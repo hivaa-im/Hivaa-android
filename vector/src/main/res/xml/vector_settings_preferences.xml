@@ -14,7 +14,7 @@
             app:fragment="im.vector.app.features.settings.locale.LocalePickerFragment" />
 
         <im.vector.app.core.preference.VectorSwitchPreference
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:key="SETTINGS_SIMPLIFIED_MODE"
             android:title="@string/settings_simplified_mode"
             android:summary="@string/settings_simplified_mode_summary"
@@ -170,7 +170,7 @@
             android:title="@string/settings_show_join_leave_messages" />
 
         <im.vector.app.core.preference.VectorSwitchPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:key="SETTINGS_SHOW_AVATAR_DISPLAY_NAME_CHANGES_MESSAGES_KEY"
             android:summary="@string/settings_show_avatar_display_name_changes_messages_summary"
             android:title="@string/settings_show_avatar_display_name_changes_messages" />
@@ -189,7 +189,7 @@
             app:isPreferenceVisible="@bool/false_not_implemented" />
 
         <im.vector.app.core.preference.VectorSwitchPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:key="SETTINGS_SHOW_AVATAR_DISPLAY_NAME_CHANGES_MESSAGES_KEY"
             android:summary="@string/settings_show_avatar_display_name_changes_messages_summary"
             android:title="@string/settings_show_avatar_display_name_changes_messages"

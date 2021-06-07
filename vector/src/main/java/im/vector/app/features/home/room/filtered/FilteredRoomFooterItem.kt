@@ -41,7 +41,7 @@ abstract class FilteredRoomFooterItem : VectorEpoxyModel<FilteredRoomFooterItem.
         holder.createRoomButton.setOnClickListener { listener?.createRoom(currentFilter) }
         holder.createDirectChat.setOnClickListener { listener?.createDirectChat() }
         holder.openRoomDirectory.setOnClickListener { listener?.openRoomDirectory(currentFilter) }
-        holder.openRoomDirectory.visibility = if (vectorPreferences.simplifiedMode()) View.GONE else View.VISIBLE
+        holder.openRoomDirectory.visibility = View.VISIBLE
     }
 
     class Holder : VectorEpoxyHolder() {

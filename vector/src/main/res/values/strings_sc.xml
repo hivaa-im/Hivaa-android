@@ -15,7 +15,7 @@
     <string name="settings_room_unread_kind_original_content">Hide member changes and reactions</string>
 
     <string name="settings_simplified_mode">Easy mode</string>
-    <string name="settings_simplified_mode_summary">Hide advanced functionality, including public room directories and chat encryption settings</string>
+    <string name="settings_simplified_mode_summary">Hide advanced functionality, including chat encryption settings</string>
     <string name="prompt_simplified_mode_title">Select user interface</string>
     <string name="prompt_simplified_mode_text">You can change this later in the settings.</string>
     <!-- simplified mode prompt: start and end with newline to make dialog look better -->

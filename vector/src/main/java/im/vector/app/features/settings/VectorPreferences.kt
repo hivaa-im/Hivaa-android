@@ -313,7 +313,7 @@ class VectorPreferences @Inject constructor(private val context: Context) {
     }
 
     fun swipeToReplyIsEnabled(): Boolean {
-        return defaultPrefs.getBoolean(SETTINGS_LABS_ENABLE_SWIPE_TO_REPLY, false)
+        return defaultPrefs.getBoolean(SETTINGS_LABS_ENABLE_SWIPE_TO_REPLY, true)
     }
 
     fun labShowCompleteHistoryInEncryptedRoom(): Boolean {
@@ -394,7 +394,7 @@ class VectorPreferences @Inject constructor(private val context: Context) {
      * @return true true if the avatar and display name events should be shown in the messages list.
      */
     fun showAvatarDisplayNameChangeMessages(): Boolean {
-        return defaultPrefs.getBoolean(SETTINGS_SHOW_AVATAR_DISPLAY_NAME_CHANGES_MESSAGES_KEY, true)
+        return defaultPrefs.getBoolean(SETTINGS_SHOW_AVATAR_DISPLAY_NAME_CHANGES_MESSAGES_KEY, false)
     }
 
     /**
@@ -936,7 +936,7 @@ class VectorPreferences @Inject constructor(private val context: Context) {
 
     // SC addition
     fun simplifiedMode(): Boolean {
-        return defaultPrefs.getBoolean(SETTINGS_SIMPLIFIED_MODE, false)
+        return defaultPrefs.getBoolean(SETTINGS_SIMPLIFIED_MODE, true)
     }
     fun needsSimplifiedModePrompt(): Boolean {
         return !defaultPrefs.contains(SETTINGS_SIMPLIFIED_MODE)
