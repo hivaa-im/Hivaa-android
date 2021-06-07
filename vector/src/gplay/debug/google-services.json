@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "912726360885",
-    "firebase_url": "https://vector-alpha.firebaseio.com",
-    "project_id": "vector-alpha",
-    "storage_bucket": "vector-alpha.appspot.com"
+    "project_number": "519033151836",
+    "firebase_url": "https://hivaa-im.firebaseio.com",
+    "project_id": "hivaa-im",
+    "storage_bucket": "hivaa-im.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:912726360885:android:4ef8f3a0021e774d",
+        "mobilesdk_app_id": "1:519033151836:android:a06a388831a79bc7f3a199",
         "android_client_info": {
-          "package_name": "de.spiritcroc.riotx.debug"
+          "package_name": "im.hivaa.app.debug"
         }
       },
       "oauth_client": [
         {
-          "client_id": "912726360885-e87n3jva9uoj4vbidvijq78ebg02asv2.apps.googleusercontent.com",
+          "client_id": "519033151836-l0qkhfumq4k0efkav90du1tl4n1lgdl3.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAFZX8IhIfgzdOZvxDP_ISO5WYoU7jmQ5c"
+          "current_key": "AIzaSyAeDBVN-CJ4UlQHZvMdnIoRK6R_KbYnQ1I"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "912726360885-rsae0i66rgqt6ivnudu1pv4tksg9i8b2.apps.googleusercontent.com",
+              "client_id": "519033151836-l0qkhfumq4k0efkav90du1tl4n1lgdl3.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
