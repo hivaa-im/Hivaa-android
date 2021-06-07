@@ -112,8 +112,8 @@
         <!-- Source: https://zpl.io/aBKw9Mk -->
 
     <!-- Accents -->
-    <color name="riotx_accent">#FF0DBD8B</color>
-    <color name="riotx_accent_alpha25">#3F0DBD8B</color>
+    <color name="riotx_accent">#20ACC1</color>
+    <color name="riotx_accent_alpha25">#3F20ACC1</color>
 
 
     <color name="riotx_destructive_accent">#FFFF4B55</color>
@@ -121,9 +121,9 @@
     <color name="riotx_button_primary_accent_alpha12">#14368BD6</color>
 
 
-    <color name="riotx_positive_accent">#0DBD8B</color>
+    <color name="riotx_positive_accent">#20ACC1</color>
     <color name="riotx_disabled_accent">#C4C4C4</color>
-    <color name="riotx_positive_accent_alpha12">#1E0DBD8B</color>
+    <color name="riotx_positive_accent_alpha12">#1E20ACC1</color>
     <color name="riotx_button_disabled_alpha12">#1E61708B</color>
 
     <color name="bg_call_screen">#99000000</color>
